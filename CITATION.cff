@@ -12,7 +12,9 @@ authors:
   - family-names: Bui
     given-names: Thi-Cuc
     orcid: "https://orcid.org/0009-0008-9081-7327"
+doi: "10.5281/zenodo.23878066"
 repository-code: "https://github.com/cucphenikaa/chbmit-online-safe-seizure-prediction"
+url: "https://doi.org/10.5281/zenodo.23878066"
 license: MIT
 version: 1.0.0
 date-released: 2026-11-02
@@ -23,4 +25,3 @@ keywords:
   - CHB-MIT
   - patient-specific modelling
   - online-safe evaluation
-
