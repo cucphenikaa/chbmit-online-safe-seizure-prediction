@@ -35,7 +35,7 @@ Typical inputs include:
 - V11B online-safe stream outputs
 - V12C training timestamp outputs for V12B GUARD10/FORWARD
 
-These derived datasets are large and are intentionally excluded from Git. The compact result tables used by the manuscript are included under `results/`.
+These derived datasets and research-result tables are intentionally excluded from Git. The notebooks regenerate the result tables from the documented inputs.
 
 ## Expected temporal fields
 
