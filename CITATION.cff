@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Online-safe patient-specific seizure prediction on CHB-MIT"
+type: software
+authors:
+  - family-names: Nguyen
+    given-names: Ngoc-Lan
+  - family-names: Nguyen
+    given-names: Thi-Thu-Ha
+  - family-names: Nguyen
+    given-names: Van-Toi
+  - family-names: Bui
+    given-names: Thi-Cuc
+    orcid: "https://orcid.org/0009-0008-9081-7327"
+repository-code: "https://github.com/cucphenikaa/chbmit-online-safe-seizure-prediction"
+license: MIT
+version: 1.0.0
+date-released: 2026-11-02
+keywords:
+  - EEG
+  - epilepsy
+  - seizure prediction
+  - CHB-MIT
+  - patient-specific modelling
+  - online-safe evaluation
+
