@@ -1,5 +1,7 @@
 # Online-safe patient-specific seizure prediction on CHB-MIT
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23878066.svg)](https://doi.org/10.5281/zenodo.23878066)
+
 Reproducible research code for the manuscript on the incremental value of network-level EEG features under seizure-wise and online-safe evaluation. The repository contains the complete Kaggle-oriented workflow from gap-aware EEG segmentation to feature extraction, patient-specific leave-one-seizure-out (LOSO) classification, causal alarm generation, robustness analyses, and publication figures.
 
 ## Study overview
@@ -77,9 +79,10 @@ No raw EEG is redistributed here. CHB-MIT is a public, de-identified research da
 
 ## Citation
 
+The archived v1.0.0 release is available at [https://doi.org/10.5281/zenodo.23878066](https://doi.org/10.5281/zenodo.23878066).
+
 If you use this code, cite the software metadata in [CITATION.cff](CITATION.cff) and the associated article once published. The article citation will be updated after acceptance and DOI assignment.
 
 ## License
 
 Code is released under the [MIT License](LICENSE). Dataset rights remain with their respective owners.
-
