@@ -1,0 +1,44 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and editors
+.venv/
+venv/
+.env
+.env.*
+.vscode/
+.idea/
+
+# Raw EEG and large derived artifacts
+*.edf
+*.bdf
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.parquet
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.tar
+*.tar.gz
+
+# Generated outputs
+outputs/
+checkpoints/
+stream_predictions/
+figures/generated/
+
+# OS files
+.DS_Store
+Thumbs.db
+
