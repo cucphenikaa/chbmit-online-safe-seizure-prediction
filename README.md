@@ -22,7 +22,6 @@ The central methodological distinction is between retrospective **label-gated** 
 .
 ├── notebooks/       # Numbered end-to-end analysis notebooks
 ├── figures/         # Standalone publication-figure scripts
-├── results/         # Compact source tables and final summary outputs
 ├── DATA.md          # Data sources, expected inputs, and data-use notes
 ├── CITATION.cff     # Software citation metadata
 ├── environment.yml  # Conda environment
@@ -70,7 +69,7 @@ The notebooks automatically discover compatible folders under `/kaggle/input` wh
 - Balancing is applied to training data only. Held-out classification tests and continuous streams are not training-balanced.
 - Scaling, mutual-information feature selection, and model fitting are performed using training data within each fold.
 - Temporal gaps and ineligible phases are retained for retrospective scoring but are not used as future-label gates by the online-safe alarm generator.
-- Notebook outputs are intentionally cleared in this repository. Compact final tables needed to verify reported results are retained in `results/`.
+- Notebook outputs are intentionally cleared in this repository. Research-result tables and large intermediate outputs are not redistributed through GitHub; the notebooks regenerate them from the documented inputs.
 
 ## Data and privacy
 
